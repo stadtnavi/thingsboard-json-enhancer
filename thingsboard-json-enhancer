@@ -1,0 +1,106 @@
+#! /usr/bin/env python3
+
+import glob
+import requests
+import os
+import datetime
+import json
+from argparse import ArgumentParser
+import time 
+from jinja2 import Environment, FileSystemLoader, select_autoescape
+from functools import lru_cache
+
+env = Environment(
+    loader=FileSystemLoader('.'),
+    #autoescape=select_autoescape([ 'json'])
+)
+
+parser = ArgumentParser()
+parser.add_argument("-o", "--outputDir", help="output directory the transformed files are written to", default="out/")
+parser.add_argument("-i", "--inputDir", help="the input directory of files to filter", default="taxi/")
+args = parser.parse_args()
+
+base_url = os.environ['THINGSBOARD_HOST']
+
+token_url = f"{base_url}/auth/login"
+
+payload = {
+    "username": os.environ['THINGSBOARD_USERNAME'],
+    "password": os.environ['THINGSBOARD_PASSWORD']
+}
+
+response = requests.post(token_url, json=payload)
+token = response.json()["token"]
+
+auth_headers = {
+    "X-Authorization": f"Bearer {token}"
+}
+
+def _get_attribute(items, name):
+    for i in items:
+        if(i["key"] == name):
+            return i["value"]
+
+def _get_timeseries_value(timeseries, name):
+    val = timeseries[name][0]["value"]
+    if val == None:
+        return 0
+    else:
+        return int(float(val))
+
+@lru_cache(maxsize=100, typed=False)
+def _fetch_attributes(id):
+    attribute_url = f"{base_url}/plugins/telemetry/ASSET/{id}/values/attributes?keys=address,latitude,longitude"
+    return requests.get(attribute_url, headers=auth_headers).json()
+
+@lru_cache(maxsize=100, typed=False)
+def _fetch_timeseries(id):
+    timeseries_url = f"{base_url}/plugins/telemetry/ASSET/{id}/values/timeseries"
+
+    json = requests.get(timeseries_url, headers=auth_headers).json()
+    return json
+
+def fetch_minimum_timestamp(id, keys = None):
+    ts = _fetch_timeseries(id)
+    min_timestamp = None
+    for key in ts.keys():
+        if keys is None or key in keys:
+            timestamp = ts[key][0]['ts']/1000
+            if min_timestamp is None or timestamp < min_timestamp:
+                min_timestamp = timestamp
+    return time.strftime('%Y-%m-%dT%H:%M:%S%z', time.localtime(timestamp))
+
+def fetch_attribute(id, key):
+    return _get_attribute(_fetch_attributes(id), key)
+
+def fetch_timeseries_value(id, key):
+    return _get_timeseries_value(_fetch_timeseries(id), key)
+
+def transform_file(input_file, output_file):
+
+    template = env.get_template(input_file)
+    template.globals['fetch_attribute'] = fetch_attribute
+    template.globals['fetch_timeseries'] = fetch_timeseries_value
+    template.globals['fetch_minimum_timestamp'] = fetch_minimum_timestamp
+
+    rendered_template = template.render(timestamp = int(time.time()))
+    
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(rendered_template)
+
+def _clear_thingsboard_cache():
+    _fetch_timeseries.cache_clear()
+    _fetch_attributes.cache_clear()
+
+def transform_files(input_dir, output_dir):
+    _clear_thingsboard_cache()
+
+    LIST = glob.glob(input_dir+"*json", recursive = False)
+    for file in LIST:
+        print(f"Filter {file} "+ output_dir+os.path.basename(file))
+        transform_file(file, output_dir+os.path.basename(file))
+
+
+transform_files(args.inputDir, args.outputDir)
+
+print(f"Wrote output to {args.outputDir}")

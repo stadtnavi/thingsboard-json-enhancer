@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {% for id in ['9c3f8090-0563-11ea-9a2d-876c1a6b66b2', '76d596d0-fe0d-11e9-9a2d-876c1a6b66b2'] %}
+    {
+      "type": "Feature",
+      "properties": {
+        "address": "{{ fetch_attribute(id, 'address')}}",
+        "airTemperatureC":  {{ fetch_timeseries(id, 'temp') }},
+        "roadTemperatureC": {{ fetch_timeseries(id, 'act_temp_road_surf') }},
+        "precipitationType": {{ fetch_timeseries(id, 'prec_type') }},
+        "roadCondition": {{ fetch_timeseries(id, 'act_road_condition') }},
+        "updatedAt": "{{ fetch_minimum_timestamp(id) }}"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          {{fetch_attribute(id,'longitude')}},
+          {{fetch_attribute(id,'latitude')}}
+        ]
+      }
+    }{{ ", " if not loop.last }}
+    {% endfor %}
+  ]
+}

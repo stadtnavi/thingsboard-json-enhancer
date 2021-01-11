@@ -1,0 +1,62 @@
+{
+  "data": {
+    "stations": [
+      {
+        "lat": 48.59376,
+        "lon": 8.86348,
+        "name": "Taxi-Stellplatz",
+        "station_id": "taxi-1"
+      },
+      {
+        "lat": 48.68732,
+        "lon": 9.00501,
+        "name": "Taxi-Stellplatz",
+        "station_id": "taxi-2"
+      },
+      {
+        "lat": 48.54997,
+        "lon": 8.7232,
+        "name": "Taxi-Stellplatz",
+        "station_id": "taxi-3"
+      },
+      {
+        "lat": 48.70778,
+        "lon": 9.00203,
+        "name": "Marktplatz",
+        "station_id": "taxi-4"
+      },
+      {
+        "lat": 48.70528,
+        "lon": 8.99983,
+        "name": "Stern Center",
+        "station_id": "taxi-5"
+      },
+      {
+        "lat": 48.52687,
+        "lon": 8.56495,
+        "name": "Taxi Schmid",
+        "station_id": "taxi-6"
+      },
+      {
+        "lat": 48.70417,
+        "lon": 8.99914,
+        "name": "Taxi-Stellplatz",
+        "station_id": "taxi-7"
+      },
+      {
+        "lat": 48.66042,
+        "lon": 8.94397,
+        "name": "Taxi Winter",
+        "station_id": "taxi-8"
+      },
+      {
+        "lat": 48.54074,
+        "lon": 8.92156,
+        "name": "Fuchs Mobil",
+        "station_id": "taxi-9"
+      }
+    ]
+  },
+  "last_updated": {{timestamp}},
+  "ttl": 60000
+}

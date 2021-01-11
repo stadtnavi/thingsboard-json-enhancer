@@ -1,0 +1,53 @@
+{
+  "data": {
+    "stations": [
+      {
+        "num_bikes_available": {{fetch_timeseries('1b48a9f0-9756-11ea-a114-c3716c5b7b99', 'latestSumParkingState')}},
+        "is_renting": true,
+        "station_id": "taxi-1"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-2"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-3"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-4"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-5"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-6"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-7"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-8"
+      },
+      {
+        "num_bikes_available": -1,
+        "is_renting": true,
+        "station_id": "taxi-9"
+      }
+    ]
+  },
+  "last_updated": {{timestamp}},
+  "ttl": 60000
+}
