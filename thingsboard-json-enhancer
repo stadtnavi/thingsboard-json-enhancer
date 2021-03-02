@@ -6,7 +6,7 @@ import os
 import datetime
 import json
 from argparse import ArgumentParser
-import time 
+import time
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 from functools import lru_cache
 
@@ -46,7 +46,7 @@ def _get_timeseries_value(timeseries, name):
     if val == None:
         return 0
     else:
-        return int(float(val))
+        return val
 
 @lru_cache(maxsize=100, typed=False)
 def _fetch_attributes(id):
@@ -56,9 +56,12 @@ def _fetch_attributes(id):
 @lru_cache(maxsize=100, typed=False)
 def _fetch_timeseries(id):
     timeseries_url = f"{base_url}/plugins/telemetry/ASSET/{id}/values/timeseries"
+    return requests.get(timeseries_url, headers=auth_headers).json()
 
-    json = requests.get(timeseries_url, headers=auth_headers).json()
-    return json
+@lru_cache(maxsize=100, typed=False)
+def _fetch_device_timeseries(id):
+    timeseries_url = f"{base_url}/plugins/telemetry/DEVICE/{id}/values/timeseries"
+    return requests.get(timeseries_url, headers=auth_headers).json()
 
 def fetch_minimum_timestamp(id, keys = None):
     ts = _fetch_timeseries(id)
@@ -76,15 +79,19 @@ def fetch_attribute(id, key):
 def fetch_timeseries_value(id, key):
     return _get_timeseries_value(_fetch_timeseries(id), key)
 
+def fetch_device_timeseries_value(id, key):
+    return _get_timeseries_value(_fetch_device_timeseries(id), key)
+
 def transform_file(input_file, output_file):
 
     template = env.get_template(input_file)
     template.globals['fetch_attribute'] = fetch_attribute
     template.globals['fetch_timeseries'] = fetch_timeseries_value
+    template.globals['fetch_device_timeseries'] = fetch_device_timeseries_value
     template.globals['fetch_minimum_timestamp'] = fetch_minimum_timestamp
 
     rendered_template = template.render(timestamp = int(time.time()))
-    
+
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(rendered_template)
 

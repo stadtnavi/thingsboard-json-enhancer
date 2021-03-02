@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {% for id in ['17e40b70-5b04-11eb-98a5-133ebfea8661', '66df3b20-5b02-11eb-98a5-133ebfea8661', '14341fa0-5b00-11eb-98a5-133ebfea8661', 'fef36ff0-5afb-11eb-98a5-133ebfea8661'] %}
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "{{ id }}",
+        "pax": {{ fetch_device_timeseries(id, 'pax') }}
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          {{fetch_device_timeseries(id,'longitude')}},
+          {{fetch_device_timeseries(id,'latitude')}}
+        ]
+      }
+    }{{ ", " if not loop.last }}
+    {% endfor %}
+  ]
+}
