@@ -46,6 +46,13 @@ def _get_timeseries_value(timeseries, name):
     if val == None:
         return 0
     else:
+        return int(float(val))
+
+def _get_device_timeseries_value(timeseries, name):
+    val = timeseries[name][0]["value"]
+    if val == None:
+        return 0
+    else:
         return val
 
 @lru_cache(maxsize=100, typed=False)
@@ -80,7 +87,7 @@ def fetch_timeseries_value(id, key):
     return _get_timeseries_value(_fetch_timeseries(id), key)
 
 def fetch_device_timeseries_value(id, key):
-    return _get_timeseries_value(_fetch_device_timeseries(id), key)
+    return _get_device_timeseries_value(_fetch_device_timeseries(id), key)
 
 def transform_file(input_file, output_file):
 
