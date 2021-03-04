@@ -6,7 +6,8 @@
       "type": "Feature",
       "properties": {
         "id": "{{ id }}",
-        "pax": {{ fetch_device_timeseries(id, 'pax') }}
+        "pax": {{ fetch_device_timeseries(id, 'pax') }},
+        "fetchedFromThingsboard": "{{ now() }}"
       },
       "geometry": {
         "type": "Point",
