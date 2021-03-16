@@ -161,6 +161,7 @@
         "id": "Elektroauto-Ladestation_1",
         "vehicleType": "car",
         "capacity": 2,
+        "occupied": {{ fetch_timeseries('42caa5a0-9756-11ea-a114-c3716c5b7b99', 'latestSumParkingState') }},
         "fee": true,
         "openingHours": "24/7"
       },
