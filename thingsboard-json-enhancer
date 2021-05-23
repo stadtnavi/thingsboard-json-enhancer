@@ -82,6 +82,10 @@ def fetch_timeseries_value(id, key):
 def fetch_device_timeseries_value(id, key):
     return _get_timeseries_value(_fetch_device_timeseries(id), key)
 
+def fetch_timeseries_map(id, key, value, mapped_value, other_value):
+    ts_value = _get_timeseries_value(_fetch_timeseries(id), key)
+    return mapped_value if ts_value == value else other_value
+
 def now_iso():
     return datetime.datetime.now().astimezone().replace(microsecond=0).isoformat()
 
@@ -90,6 +94,7 @@ def transform_file(input_file, output_file):
     template = env.get_template(input_file)
     template.globals['fetch_attribute'] = fetch_attribute
     template.globals['fetch_timeseries'] = fetch_timeseries_value
+    template.globals['fetch_timeseries_map'] = fetch_timeseries_map
     template.globals['fetch_device_timeseries'] = fetch_device_timeseries_value
     template.globals['fetch_minimum_timestamp'] = fetch_minimum_timestamp
     template.globals['now'] = now_iso
