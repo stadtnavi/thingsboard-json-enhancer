@@ -565,6 +565,514 @@
           ]
         }
       ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1029",
+      "name": "ChargerCube E-Bike Ladestation Café Ikarus Buttenhausen",
+      "address": "Wasserstetter Straße 4",
+      "postal_code": "72525",
+      "city": "Münsingen-Buttenhausen",
+      "country": "DE",
+      "last_updated": "2021-09-05T14:04:00",
+      "coordinates": {
+        "lat": "48.361698",
+        "lon": "9.475739"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1029*1",
+          "status": "UNKNOWN",
+          "phone": "073811820",
+          "capabilities": [
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "DOMESTIC_F",
+              "format": "SOCKET",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 16,
+              "max_electric_power": 3680
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1046",
+      "name": "ChargerCube E-Bike Ladestation Biosphärenzentrum Auingen",
+      "address": "Biosphärenallee",
+      "postal_code": "72525",
+      "city": "Münsingen-Auingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T14:04:00",
+      "coordinates": {
+        "lat": "48.412526",
+        "lon": "9.534062"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1046*1",
+          "status": "UNKNOWN",
+          "phone": "071211448485",
+          "capabilities": [
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "DOMESTIC_F",
+              "format": "SOCKET",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 16,
+              "max_electric_power": 3680
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1028",
+      "name": "ChargerCube E-Bike Ladestation Rathausplatz Münsingen",
+      "address": "Bachwiesenstraße 7",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T14:04:00",
+      "coordinates": {
+        "lat": "48.412617",
+        "lon": "9.492708"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1028*1",
+          "status": "UNKNOWN",
+          "phone": "073811820",
+          "capabilities": [
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "DOMESTIC_F",
+              "format": "SOCKET",
+              "power_type": "AC_1_PHASE",
+              "max_voltage": 230,
+              "max_amperage": 16,
+              "max_electric_power": 3680
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "uid": "TMP*STADTNAVI*1012",
+      "name": "E-Tankstelle für PKW Albgut Münsingen",
+      "address": "Hauptstraße",
+      "postal_code": "72525",
+      "city": "Münsingen-Auingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.412622",
+        "lon": "9.534473"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1012*1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1012*2",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1006",
+      "name": "E-Tankstelle für PKW Bahnhof Münsingen",
+      "address": "Bahnhofstraße 6",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.410410",
+        "lon": "9.490985"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1006*1",
+          "status": "UNKNOWN",
+          "phone": "072172586451",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1006*2",
+          "status": "UNKNOWN",
+          "phone": "072172586451",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+     {
+      "uid": "TMP*STADTNAVI*1009",
+      "name": "E-Tankstelle für PKW Freibad Münsingen",
+      "address": "Alter Seeburger Weg 4",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.415557",
+        "lon": "9.490235"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1009*1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1009*2",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1010",
+      "name": "E-Tankstelle für PKW Hermann Menton GmbH & Co KG",
+      "address": "Graf-Zeppelin-Straße 2",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.415876",
+        "lon": "9.477174"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1010*1",
+          "status": "UNKNOWN",
+          "phone": "07381756990",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1010*2",
+          "status": "UNKNOWN",
+          "phone": "07381756990",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1011",
+      "name": "E-Tankstelle für PKW Jllig Automobile GmbH & Co.KG",
+      "address": "Hauptstraße 62",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.409579",
+        "lon": "9.499852"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1011*1",
+          "status": "UNKNOWN",
+          "phone": "0738193030",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1011*2",
+          "status": "UNKNOWN",
+          "phone": "0738193030",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1005",
+      "name": "E-Tankstelle für PKW Rathaus Münsingen",
+      "address": "Bachwiesenstraße 7",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.412620",
+        "lon": "9.491937"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1005*1",
+          "status": "UNKNOWN",
+          "phone": "073811820",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1005*2",
+          "status": "UNKNOWN",
+          "phone": "073811820",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "TMP*STADTNAVI*1007",
+      "name": "E-Tankstelle für PKW Uracher Straße Münsingen",
+      "address": "Uracher Straße",
+      "postal_code": "72525",
+      "city": "Münsingen",
+      "country": "DE",
+      "last_updated": "2021-09-05T15:40:00",
+      "coordinates": {
+        "lat": "48.413808",
+        "lon": "9.493674"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "TMP*STADTNAVI*1007*1",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        },
+        {
+          "evse_id": "TMP*STADTNAVI*1007*2",
+          "status": "UNKNOWN",
+          "capabilities": [
+            "REMOTE_START_STOP_CAPABLE",
+            "RFID_READER"
+          ],
+          "connectors": [
+            {
+              "uid": "1",
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000
+            }
+          ]
+        }
+      ]
     }
   ]
 }
