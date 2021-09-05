@@ -588,6 +588,7 @@
           "phone": "073811820",
           "capabilities": [
           ],
+          "parking_restrictions": ["BICYCLE_ONLY"],
           "connectors": [
             {
               "uid": "1",
@@ -624,6 +625,7 @@
           "phone": "071211448485",
           "capabilities": [
           ],
+          "parking_restrictions": ["BICYCLE_ONLY"],
           "connectors": [
             {
               "uid": "1",
@@ -660,6 +662,7 @@
           "phone": "073811820",
           "capabilities": [
           ],
+          "parking_restrictions": ["BICYCLE_ONLY"],
           "connectors": [
             {
               "uid": "1",
