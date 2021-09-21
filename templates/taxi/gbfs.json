@@ -1,0 +1,24 @@
+{
+  "last_updated": {{timestamp}},
+  "ttl": 86400,
+  "version": "2.2",
+  "data": {
+    "de": {
+      "feeds": [
+        {
+          "name": "system_information",
+          "url": "{{ base_url }}/system_information.json"
+        },
+        {
+          "name": "station_information",
+          "url": "{{ base_url }}/station_information.json"
+        },
+        {
+          "name": "station_status",
+          "url": "{{ base_url }}/station_status.json"
+        }
+      ]
+    }
+  }
+}
+

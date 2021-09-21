@@ -99,7 +99,7 @@ def transform_file(input_file, output_file):
     template.globals['fetch_minimum_timestamp'] = fetch_minimum_timestamp
     template.globals['now'] = now_iso
 
-    rendered_template = template.render(timestamp = int(time.time()))
+    rendered_template = template.render(timestamp = int(time.time()), base_url = os.environ["BASE_URL"])
 
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(rendered_template)
