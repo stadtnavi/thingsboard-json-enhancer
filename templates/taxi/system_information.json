@@ -3,7 +3,7 @@
     "language": "DE",
     "name": "Taxi-Stände",
     "operator": "Taxi Herrenberg",
-    "system_id": "de.mfdz.gbfs.taxi.herrenberg",
+    "system_id": "taxi",
     "timezone": "CET",
     "url": "https://gtfs.mfdz.de/gbfs/taxi_hbg/"
   },
