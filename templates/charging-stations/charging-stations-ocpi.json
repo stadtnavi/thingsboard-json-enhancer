@@ -1076,6 +1076,1098 @@
           ]
         }
       ]
+    },
+    {
+      "uid": "ZZ*NAV*LB538632",
+      "name": "Ladepunkt Aldi-S\u00fcd",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.879931",
+        "lon": "9.2190404"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB538632*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB538633",
+      "name": "Ladepunkt Aldi S\u00fcd",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8908506",
+        "lon": "9.1810516"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB538633*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538633*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538633*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB538634",
+      "name": "Ladepunkt IKEA",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.9197637",
+        "lon": "9.1542406"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB538634*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538634*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538634*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538634*4",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538634*5",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538634*6",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB538635",
+      "name": "Ladepunkt Breuningerland",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.9208534",
+        "lon": "9.149368"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB538635*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*4",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*5",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*6",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*7",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*8",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*9",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 300000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*10",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 300000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*11",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 300000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB538635*12",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 300000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539953",
+      "name": "Ladepunkt Noz Elektrotechnik",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8889958",
+        "lon": "9.1558762"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539953*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539953*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539954",
+      "name": "Ladepunkt Gebr. Lotter",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8913347",
+        "lon": "9.1569366"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539954*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539954*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539954*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539955",
+      "name": "",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8913347",
+        "lon": "9.1569366"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539955*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539955*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 20000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539955*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539956",
+      "name": "Ladepunkt Hahn Automobile",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8904439",
+        "lon": "9.1582522"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539956*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 190000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539956*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 190000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539956*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539957",
+      "name": "Ladepunkt Robert Bosch GmbH",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8906124",
+        "lon": "9.1723182"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539957*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539957*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539957*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539957*4",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539957*5",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539957*6",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539958",
+      "name": "Ladepunkt Autohaus Tschirner und Fuchs",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.9075127",
+        "lon": "9.2311195"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539958*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 25000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539958*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB539959",
+      "name": "Ladepunkt Hahn Automobile",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.9032359",
+        "lon": "9.1655712"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB539959*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 190000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539959*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 190000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB539959*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB540033",
+      "name": "Ladepunkt Hahn+Kolb, Hummel Systemhaus GmbH & Co. KG",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.8934274",
+        "lon": "9.1638808"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB540033*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540033*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ZZ*NAV*LB540094",
+      "name": "Ladepunkt Hornbach",
+      "city": "Ludwigsburg",
+      "country": "DE",
+      "last_updated": "2022-06-30T11:00:00",
+      "coordinates": {
+        "lat": "48.890664",
+        "lon": "9.1529412"
+      },
+      "opening_times": {
+        "twentyfourseven": true
+      },
+      "evses": [
+        {
+          "evse_id": "ZZ*NAV*LB540094*1",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540094*2",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540094*3",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540094*4",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "CHADEMO",
+              "format": "CABLE",
+              "power_type": "AC",
+              "max_voltage": 1000,
+              "max_amperage": 100,
+              "max_electric_power": 150000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540094*5",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        },
+        {
+          "evse_id": "ZZ*NAV*LB540094*6",
+          "status": "UNKNOWN",
+          "capabilities": [],
+          "parking_restrictions": "CUSTOMERS",
+          "connectors": [
+            {
+              "standard": "IEC_62196_T2",
+              "format": "SOCKET",
+              "power_type": "AC_3_PHASE",
+              "max_voltage": 400,
+              "max_amperage": 32,
+              "max_electric_power": 22000,
+              "uid": "1"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
