@@ -1,12 +1,12 @@
 {
   "type": "FeatureCollection",
   "features": [
-    {% for id in ['3bd3e5f0-d1c4-11eb-a5c3-07a9bef48231', '9c3f8090-0563-11ea-9a2d-876c1a6b66b2','76d596d0-fe0d-11e9-9a2d-876c1a6b66b2'] %}
+    {% for id in ['3bd3e5f0-d1c4-11eb-a5c3-07a9bef48231','76d596d0-fe0d-11e9-9a2d-876c1a6b66b2'] %}
     {
       "type": "Feature",
       "properties": {
         "address": "{{ fetch_attribute(id, 'address')}}",
-        "airTemperatureC":  {{ fetch_timeseries(id, 'temp') }},
+        "airTemperatureC":  {{ fetch_timeseries(id, 'temp_avg') }},
         "roadTemperatureC": {{ fetch_timeseries(id, 'act_temp_road_surf') }},
         "precipitationType": {{ fetch_timeseries(id, 'prec_type') }},
         "roadCondition": {{ fetch_timeseries(id, 'act_road_condition') }},
