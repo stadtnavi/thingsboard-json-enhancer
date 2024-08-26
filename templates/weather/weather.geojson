@@ -10,7 +10,7 @@
         "roadTemperatureC": {{ fetch_timeseries(id, 'act_temp_road_surf') }},
         "precipitationType": {{ fetch_timeseries(id, 'precip_type') }},
         "roadCondition": {{ fetch_timeseries(id, 'act_road_condition') }},
-        "updatedAt": "{{ fetch_minimum_timestamp(id) }}"
+        "updatedAt": "{{ fetch_maximum_timestamp(id) }}"
       },
       "geometry": {
         "type": "Point",

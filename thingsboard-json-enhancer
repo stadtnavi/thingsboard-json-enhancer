@@ -71,7 +71,17 @@ def fetch_minimum_timestamp(id, keys = None):
             timestamp = ts[key][0]['ts']/1000
             if min_timestamp is None or timestamp < min_timestamp:
                 min_timestamp = timestamp
-    return time.strftime('%Y-%m-%dT%H:%M:%S%z', time.localtime(timestamp))
+    return time.strftime('%Y-%m-%dT%H:%M:%S%z', time.localtime(min_timestamp))
+
+def fetch_maximum_timestamp(id, keys = None):
+    ts = _fetch_timeseries(id)
+    max_timestamp = None
+    for key in ts.keys():
+        if keys is None or key in keys:
+            timestamp = ts[key][0]['ts']/1000
+            if max_timestamp is None or timestamp > max_timestamp:
+                max_timestamp = timestamp
+    return time.strftime('%Y-%m-%dT%H:%M:%S%z', time.localtime(max_timestamp))
 
 def fetch_attribute(id, key):
     return _get_attribute(_fetch_attributes(id), key)
@@ -96,6 +106,7 @@ def transform_file(input_file, output_file):
     template.globals['fetch_timeseries'] = fetch_timeseries_value
     template.globals['fetch_timeseries_map'] = fetch_timeseries_map
     template.globals['fetch_device_timeseries'] = fetch_device_timeseries_value
+    template.globals['fetch_maximum_timestamp'] = fetch_maximum_timestamp
     template.globals['fetch_minimum_timestamp'] = fetch_minimum_timestamp
     template.globals['now'] = now_iso
 
