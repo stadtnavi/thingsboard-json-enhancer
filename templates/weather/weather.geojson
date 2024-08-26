@@ -8,7 +8,7 @@
         "address": "{{ fetch_attribute(id, 'address')}}",
         "airTemperatureC":  {{ fetch_timeseries(id, 'temp_avg') }},
         "roadTemperatureC": {{ fetch_timeseries(id, 'act_temp_road_surf') }},
-        "precipitationType": {{ fetch_timeseries(id, 'prec_type') }},
+        "precipitationType": {{ fetch_timeseries(id, 'precip_type') }},
         "roadCondition": {{ fetch_timeseries(id, 'act_road_condition') }},
         "updatedAt": "{{ fetch_minimum_timestamp(id) }}"
       },
