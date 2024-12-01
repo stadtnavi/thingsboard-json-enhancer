@@ -29,7 +29,7 @@
           ],
           "connectors": [
             {
-              "uid": "1",
+              "id": "1",
               "standard": "IEC_62196_T2",
               "format": "SOCKET",
               "power_type": "AC_3_PHASE",
@@ -38,7 +38,7 @@
               "max_electric_power": 22000
             },
             {
-              "uid": "2",
+              "id": "2",
               "standard": "DOMESTIC_F",
               "format": "SOCKET",
               "power_type": "AC_1_PHASE",
@@ -59,7 +59,7 @@
           ],
           "connectors": [
             {
-              "uid": "1",
+              "id": "1",
               "standard": "IEC_62196_T2",
               "format": "SOCKET",
               "power_type": "AC_3_PHASE",
@@ -68,7 +68,7 @@
               "max_electric_power": 22000
             },
             {
-              "uid": "2",
+              "id": "2",
               "standard": "DOMESTIC_F",
               "format": "SOCKET",
               "power_type": "AC_1_PHASE",
